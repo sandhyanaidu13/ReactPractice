@@ -26,7 +26,7 @@ function Add () {
     <Form classNmae="d-grid gap-2" style={{margin:"15rem"}}>
 
         <Form.Group className="mb-3" controlId="formName">
-            <Form.Control type="text" placeholder="Enter name" required onChange= {(e) => setName(e.target.value)}>
+            <Form.Control type="text" placeholder="Enter user name" required onChange= {(e) => setName(e.target.value)}>
             </Form.Control>
         </Form.Group>
                 <Form.Group className="mb-3" controlId="formAge">
